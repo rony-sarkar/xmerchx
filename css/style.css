@@ -1,0 +1,984 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.header-top {
+    overflow: hidden;
+    background-color: #0168B3;
+}
+
+.wel-come h4 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wel-come {
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.menu-top {
+    text-align: right;
+}
+
+.menu-top ul {
+    display: inline-block;
+}
+
+.menu-top li {
+    list-style: none;
+    display: inline-block;
+    padding: 18px 0 0;
+}
+
+.separate {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.menu-top li a {
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.menu-top li a:hover {
+    color: #fff;
+}
+
+/*======================== Menu Design ==================*/
+.menu-area {
+    margin-top: 15px;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #000;
+    box-shadow: 0 5px 0 0 #000, 0 0 0 0 inset, 0 -5px 0 0 #000;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 45px;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 4px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #000;
+}
+
+#navbar ul {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+#navbar ul li a {
+    font-size: 17px;
+    color: #000;
+    line-height: 25px;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    border-radius: 5px;
+    position: relative;
+    padding: 0 0 10px;
+}
+
+#navbar ul li a::before {
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    position: absolute;
+    content: '';
+    height: 3px;
+    background: #0168B3;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar ul li a:hover::before {
+    left: 0;
+    right: 0;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.support-box {
+    overflow: hidden;
+}
+
+.support-box ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    text-align: center;
+}
+
+.service-left i {
+    font-size: 40px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #0168B3;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.service-right {
+    padding: 10px 0;
+    font-weight: 600;
+    color: #000;
+    transition: 0.5s;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*  ================================
+        product title area start
+    ================================ */
+
+.pro-title {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.sider-content {
+    border: 1px solid #D1D1D1;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar-box h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: #0168B3;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.sidebar-box img {
+    width: 200px;
+}
+
+.product-wraper {
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.dec-title {
+    margin: 30px 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.product-dec h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 30px 0 10px;
+    font-weight: 600;
+}
+
+.product-dec h3:first-child {
+    margin-top: 0;
+}
+
+.product-dec h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
+
+.product-dec ul {
+    margin-bottom: 30px;
+}
+
+.sidebar-box ul {
+    margin: 0 20px;
+}
+
+.product-dec ul,
+.tab-list ul {
+    margin: 0 0 10px;
+}
+
+.product-dec ul li,
+.tab-list ul li,
+.sidebar-box ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul li::before,
+.tab-list ul li::before,
+.sidebar-box ul li::before {
+    position: absolute;
+    content: "\f046";
+    font-family: fontawesome;
+    left: 0;
+    color: #000;
+}
+
+.tl {
+    text-align: left !important;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 30px 0;
+}
+
+section.tab-section {
+    display: none;
+    padding: 20px 30px 15px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+}
+
+.tab-part-area input {
+    display: none;
+}
+
+.tab-part-area label {
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 27px;
+    text-align: center;
+    background-color: #F8F8FA;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+
+.tab-part-area label:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #0168B3;
+    background-color: #0168B3;
+}
+
+.tab-part-area input:checked + label {
+    color: #fff;
+    border: 1px solid #0168B3;
+    background-color: #0168B3;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+    display: block;
+}
+
+.tab-section p {
+    color: #3D3D3D;
+    font-weight: 500;
+}
+
+
+.tab-section p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        care area start
+    ================================ */
+
+.care-area {
+    padding: 0 0 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.single-care i {
+    font-size: 30px;
+    color: #000;
+}
+
+.single-care h3 {
+    text-transform: uppercase;
+    color: #1a1a1a;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*  ================================
+        care area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 35px 0;
+}
+
+.footer-logo {
+    padding: 40px 0 0;
+}
+
+.footer-widget h2 {
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-widget h2::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 30%;
+    border: 1px solid #0168B3;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+}
+
+.footer-widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    margin-bottom: 15px;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.footer-widget ul li a,
+.sidebar-box ul li a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+    color: #000;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer-widget ul li a:hover {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.footer-img p {
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+    color: #fff;
+}
+
+.sub-btn {
+    border: 1px solid #0168B3;
+    background: #0168B3;
+    color: #fff;
+    text-transform: uppercase !important;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.sub-btn:focus,
+.sub-btn:hover {
+    color: #fff;
+}
+
+.main-footer {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.copy-right p a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.copy-right p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
+.csslider {
+    position: relative;
+}
+
+.csslider > input {
+    display: none;
+}
+
+.csslider > input:nth-of-type(10):checked ~ ul li:first-of-type {
+    margin-left: -900%;
+}
+
+.csslider > input:nth-of-type(9):checked ~ ul li:first-of-type {
+    margin-left: -800%;
+}
+
+.csslider > input:nth-of-type(8):checked ~ ul li:first-of-type {
+    margin-left: -700%;
+}
+
+.csslider > input:nth-of-type(7):checked ~ ul li:first-of-type {
+    margin-left: -600%;
+}
+
+.csslider > input:nth-of-type(6):checked ~ ul li:first-of-type {
+    margin-left: -500%;
+}
+
+.csslider > input:nth-of-type(5):checked ~ ul li:first-of-type {
+    margin-left: -400%;
+}
+
+.csslider > input:nth-of-type(4):checked ~ ul li:first-of-type {
+    margin-left: -300%;
+}
+
+.csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
+    margin-left: -200%;
+}
+
+.csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
+    margin-left: -100%;
+}
+
+.csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
+    margin-left: 0;
+}
+
+.csslider > ul {
+    box-sizing: border-box;
+    font-size: 0;
+    line-height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.csslider > ul > li {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: initial;
+    height: 100%;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1) 0s;
+    vertical-align: middle;
+    white-space: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.csslider > ul > li.scrollable {
+    overflow-y: scroll;
+}
+
+.csslider > .navigation {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.csslider > .navigation label {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.csslider > .navigation label img {
+    max-height: 100%;
+}
+
+.csslider > .navigation label:hover::after {
+    opacity: 1;
+}
+
+.csslider > .navigation label::after {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    opacity: 0;
+    padding: 6px;
+    position: absolute;
+    top: 50%;
+}
+
+.csslider > .arrows {
+    -moz-user-select: none;
+}
+
+.csslider.inside .navigation {
+    bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.csslider.inside .navigation label {
+    border: 1px solid #7e7e7e;
+}
+
+.csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1)::after,
+.csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2)::after,
+.csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3)::after,
+.csslider > input:nth-of-type(4):checked ~ .navigation label:nth-of-type(4)::after,
+.csslider > input:nth-of-type(5):checked ~ .navigation label:nth-of-type(5)::after,
+.csslider > input:nth-of-type(6):checked ~ .navigation label:nth-of-type(6)::after,
+.csslider > input:nth-of-type(7):checked ~ .navigation label:nth-of-type(7)::after,
+.csslider > input:nth-of-type(8):checked ~ .navigation label:nth-of-type(8)::after,
+.csslider > input:nth-of-type(9):checked ~ .navigation label:nth-of-type(9)::after,
+.csslider > input:nth-of-type(10):checked ~ .navigation label:nth-of-type(10)::after,
+.csslider > input:nth-of-type(11):checked ~ .navigation label:nth-of-type(11)::after {
+    opacity: 1;
+}
+
+.csslider > .arrows {
+    box-sizing: content-box;
+    height: 26px;
+    left: -31px;
+    padding: 0 31px;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    z-index: 0;
+}
+
+.csslider > .arrows label {
+    box-shadow: 2px -2px 0 1px #3a3a3a inset;
+    cursor: pointer;
+    display: none;
+    padding: 13px;
+    position: absolute;
+    top: -50%;
+    transition: box-shadow 0.15s ease 0s, margin 0.15s ease 0s;
+    z-index: 9999;
+}
+
+.csslider > .arrows label:hover {
+    box-shadow: 3px -3px 0 2px #0168B3 inset;
+    margin: 0;
+}
+
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+.csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+.csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+.csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+.csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+.csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+.csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+.csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+    display: block;
+    left: -27px;
+    right: auto;
+    transform: rotate(45deg);
+}
+
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+.csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+.csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+.csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+.csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+.csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+.csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+.csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+    display: block;
+    left: auto;
+    right: -27px;
+    transform: rotate(225deg);
+}
+
+.rt-container {
+    margin: 0 auto;
+    width: 76%;
+}
+
+.csslider ul li img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+
+.navigation > label {
+    border: 1px solid #ddd;
+    border-radius: 5px !important;
+    margin-bottom: 5px;
+}
+
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-right {
+        font-size: 13px;
+    }
+
+    .sidebar-box {
+        width: 50%;
+        margin: 30px auto 0;
+    }
+
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .header-top {
+        padding: 20px 0;
+    }
+
+    .support-box {
+        display: none;
+    }
+
+    .footer-widget.footer-img {
+        margin: 0 0 50px !important;
+    }
+
+    .support h2 {
+        font-size: 18px;
+    }
+
+    #navbar ul {
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+
+    #navbar ul li a {
+        margin: 0 5px;
+        font-size: 15px;
+    }
+
+    .wel-come,
+    .menu-top {
+        padding: 0;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .pro-title {
+        padding: 15px 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    .csslider ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-wraper {
+        padding: 40px 0;
+    }
+
+    .product-dec {
+        margin-top: 30px;
+    }
+
+    .rt-container {
+        width: auto;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+        left: -14px;
+    }
+
+    .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+        right: -14px;
+    }
+
+    .product-dec h2,
+    .pro-title h3,
+    .product-dec h3,
+    .product-dec h4,
+    .single-care h3 {
+        font-size: 16px;
+    }
+
+    .tab-area label {
+        width: 100%;
+    }
+
+    section.tab-section {
+        padding: 30px 10px;
+    }
+
+    .ex {
+        padding: 0;
+    }
+
+    .sidebar-box {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .footer-img {
+        padding: 0;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-left {
+        margin: 20px 0;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-widget h2 {
+        margin: 0 0 20px;
+    }
+
+    .footer-logo {
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 200px;
+    }
+
+    .footer-widget {
+        margin-bottom: 50px !important;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
